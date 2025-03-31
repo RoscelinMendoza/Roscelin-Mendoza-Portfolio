@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Weather App",
+    "imageSrc": "/assets/projects/weatherS.jpeg",
+   
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/RoscelinMendoza/Weather-App-RM.git"
+  },
+  {
+    "title": "Email Services",
+    "imageSrc": "/assets/projects/css.jpeg",
+    
+    "skills": ["HTML","CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/RoscelinMendoza/path2tech_CSS_Project-.git"
+  },
+  {
+    "title": "FoodieEats",
+    "imageSrc": "/assets/projects/Capstone.jpeg",
+  
+    "skills": ["React", "Express", "Node", "MongoDB", "Auth0"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+
+]
+
