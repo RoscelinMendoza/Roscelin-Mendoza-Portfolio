@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "./About.module.css";
 // import { getImageUrl } from "../../utils";
+import aboutmeimage from "../../../assets/about/AboutmeImage.jpeg"
+
 
 export const About = () => {
   return (
@@ -9,7 +11,7 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={"/assets/about/AboutmeImage.jpeg"}
+          src={aboutmeimage}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
@@ -30,7 +32,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
+                I have experience developing fast and optimized back-end systems
                 and APIs
               </p>
             </div>
