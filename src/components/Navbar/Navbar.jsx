@@ -20,8 +20,8 @@ export const Navbar = () => {
           className={styles.menuBtn}
           src={
             menuOpen
-              ? {closeIcon}
-              : {menuIcon}
+              ? closeIcon
+              : menuIcon
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
