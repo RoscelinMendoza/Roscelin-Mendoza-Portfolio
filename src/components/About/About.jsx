@@ -1,9 +1,9 @@
 import React from "react";
 
 import styles from "./About.module.css";
-import aboutmeimage from "../../../assets/about/AboutmeImage.jpeg";
-import cursoricon from "../../../assets/about/cursorIcon.png";
-import servericon from  "../../../assets/about/serverIcon.png";
+import aboutMeImage from "../../../assets/about/AboutmeImage.jpeg";
+import cursorIcon from "../../../assets/about/cursorIcon.png";
+import serverIcon from  "../../../assets/about/serverIcon.png";
 
 
 export const About = () => {
@@ -12,14 +12,14 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={aboutmeimage}
+          src={aboutMeImage}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
 
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={cursoricon} alt="Cursor icon" />
+            <img src={cursorIcon} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -29,7 +29,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={servericon} alt="Server icon" />
+            <img src={serverIcon} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
