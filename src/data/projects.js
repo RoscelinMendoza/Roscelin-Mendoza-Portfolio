@@ -6,7 +6,7 @@ import foodieEats from "../../assets/projects/Capstone.jpeg"
 const projects = [
   {
     "title": "Weather App",
-    "imageSrc": {weatherS},
+    "imageSrc": weatherS,
    
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     "title": "Email Services",
-    "imageSrc": {emailServices},
+    "imageSrc": emailServices,
     
     "skills": ["HTML","CSS"],
     "demo": "https://www.example.com",
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     "title": "FoodieEats",
-    "imageSrc": {foodieEats},
+    "imageSrc": foodieEats,
   
     "skills": ["React", "Express", "Node", "MongoDB", "Auth0"],
     "demo": "https://www.example.com",
@@ -31,4 +31,4 @@ const projects = [
 
 ]
 
-export default projects 
+export default projects;
