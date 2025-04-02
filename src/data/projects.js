@@ -1,7 +1,12 @@
-[
+
+import weatherS from "../../assets/projects/weatherS.jpeg";
+import emailServices from "../../assets/projects/css.jpeg"
+import foodieEats from "../../assets/projects/Capstone.jpeg"
+
+const projects = [
   {
     "title": "Weather App",
-    "imageSrc": "/assets/projects/weatherS.jpeg",
+    "imageSrc": {weatherS},
    
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
@@ -9,7 +14,7 @@
   },
   {
     "title": "Email Services",
-    "imageSrc": "/assets/projects/css.jpeg",
+    "imageSrc": {emailServices},
     
     "skills": ["HTML","CSS"],
     "demo": "https://www.example.com",
@@ -17,7 +22,7 @@
   },
   {
     "title": "FoodieEats",
-    "imageSrc": "/assets/projects/Capstone.jpeg",
+    "imageSrc": {foodieEats}
   
     "skills": ["React", "Express", "Node", "MongoDB", "Auth0"],
     "demo": "https://www.example.com",
@@ -26,3 +31,4 @@
 
 ]
 
+export default projects 
