@@ -22,7 +22,7 @@ const projects = [
   },
   {
     "title": "FoodieEats",
-    "imageSrc": {foodieEats}
+    "imageSrc": {foodieEats},
   
     "skills": ["React", "Express", "Node", "MongoDB", "Auth0"],
     "demo": "https://www.example.com",
